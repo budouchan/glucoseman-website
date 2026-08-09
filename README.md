@@ -1,0 +1,27 @@
+# グルコースマン応援サイト
+
+ゆるキャラグランプリ2026の「グルコースマン」への毎日の投票を促す、
+スマートフォン向け応援サイトです。
+
+- 公開サイト: https://glucoseman-2026.y-hioki207703.chatgpt.site/
+- GitHub Pages: https://budouchan.github.io/glucoseman-website/
+- 公式ランキング: https://yurugp.jp/vote/2026
+
+## データ更新
+
+毎日12:00（日本時間）にGitHub Actionsが公式ランキングを確認し、
+兵庫県・姫路の種・グルコースマン・エントリーNo.111の一致を検証してから
+得票数と順位を更新します。取得や検証に失敗した場合は、最後の正常値を維持します。
+
+## 開発
+
+Node.js 22以上を使用します。
+
+```bash
+npm ci
+npm run dev
+npm run build
+```
+
+AIや新しい実装担当者は、変更前に [`AGENTS.md`](./AGENTS.md) を必ず読んでください。
+デザインルール、公式データの取得方法、公開手順、保護すべきファイルをまとめています。
