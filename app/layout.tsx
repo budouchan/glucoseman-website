@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const title = "グルコースマン召喚計画｜ゆるキャラグランプリ2026";
+const title = "グルコースマンを、12万票で完全召喚する。｜ゆるキャラグランプリ2026";
 const description =
-  "グルコースマンをゆるキャラグランプリ優勝へ。目標120,000PT。現在の達成率をチェックして、今日の1票を。";
+  "ENTRY No.111 グルコースマン。12万票で完全召喚する挑戦です。現在の召喚率と順位をチェックして、今日の1票を。";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const origin = process.env.NEXT_PUBLIC_SITE_URL ?? "https://glucoseman-2026.y-hioki207703.chatgpt.site";

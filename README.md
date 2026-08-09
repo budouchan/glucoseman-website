@@ -1,7 +1,10 @@
 # グルコースマン応援サイト
 
+「グルコースマンを、12万票で完全召喚する。」
 ゆるキャラグランプリ2026の「グルコースマン」への毎日の投票を促す、
 スマートフォン向け応援サイトです。
+
+召喚率は公式得票数 ÷ 120,000 で算出します。着ぐるみの製作進捗ではありません。
 
 - 公開サイト: https://glucoseman-2026.y-hioki207703.chatgpt.site/
 - GitHub Pages: https://budouchan.github.io/glucoseman-website/

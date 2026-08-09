@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const SHARE_TEXT = "グルコースマンをゆるキャラグランプリ優勝へ。目標120,000PT！今日も1票お願いします。";
+const SHARE_TEXT = "グルコースマンを、12万票で完全召喚する。ENTRY No.111。今日も1票お願いします。";
 
 export function ShareButton() {
   const [copied, setCopied] = useState(false);
